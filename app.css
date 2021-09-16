@@ -1,0 +1,100 @@
+
+body {
+    background-color: #f3f78c;
+    font-family: Nunito, sans-serif;
+    
+}
+.row {
+    border:0px;
+    margin-right:0;
+    margin-left:0;
+    max-width:100%; }
+.up {
+    text-transform: uppercase;
+}
+.nav-item a {
+    padding: 0;
+}
+/* .nav-item {
+    color: white;
+} */
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainNavbar .navbar-brand{
+    font-size: 1.5rem;
+    color: #ea1c2c;
+}
+#mainNavbar .nav-link {
+    color: #808246;
+}
+#mainNavbar .nav-link:hover {
+    color: #ea1c2c;
+}
+
+#headingGroup span {
+    color: #ea1c2c;
+}
+#headingGroup h1 {
+    color: #808246;
+    font-weight: 100;
+    font-size: 2rem;
+}
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-size: 1.5rem;
+    }    
+}
+@media (max-width: 991px) {
+    #firstPic {
+        margin-top: 45px ;
+    }
+    .story h2, .story p {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 767px) {
+    nav.navbar {
+      background:#808246;
+      
+    }
+    #mainNavbar .navbar-brand {
+        font-weight: 700;
+        color: white;
+    }
+    #mainNavbar .nav-link {
+        color: white;
+    }
+    .story h2 {
+        font-size: 2.5rem;
+    }
+    .story p{
+        font-size: 1.25rem;
+    }    
+}
+.col-lg-6, .col-md-6 {
+    padding: 0;  
+} 
+h2 {
+    color:#ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+.story p {
+    font-weight: 100;
+    color: #808246;
+    line-height: 2;
+}
+.navbar.scrolled {
+    background-color: #808246;
+    transition: background-color 500ms;
+
+    
+    
+    
+}
+#navLinks .dewit {
+    color: white;
+    transition: color 500ms;
+}
